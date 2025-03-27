@@ -1,3 +1,4 @@
+/* styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +6,20 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', system-ui, sans-serif;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #333;
+    background-color: #f8f9fa;
 }
+
+main {
+    flex: 1;
+    padding: 2rem 0;
+}
+
 
 /* Navigation */
 nav {
@@ -55,7 +67,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: auto;
 }
 
  /* Media Queries */
